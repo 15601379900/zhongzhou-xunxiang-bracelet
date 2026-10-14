@@ -65,7 +65,7 @@ function compactStoryChapter(){
     <figcaption class="diagram-key"><span><b>${t('十二星座','12 Signs')}</b>${t('生日所在的一段','Your place in the year')}</span><span><b>${t('四元素','4 Elements')}</b>${t('火 · 土 · 风 · 水','Fire · Earth · Air · Water')}</span></figcaption>
    </figure>
   </div>
-  <div class="comparison-strip"><div><strong>${t('共同点','What they share')}</strong><p>${t('都把生日放进一年循环','Both place your birthday in the yearly cycle')}</p></div><div><strong>${t('各自的视角','How they differ')}</strong><p>${t('五运六气看时序变化，太阳星座用十二星座解读生日；两者不能一一换算','One reads seasonal change; one uses twelve signs. They do not translate one-to-one.')}</p></div></div>
+  <div class="comparison-strip"><div><strong>${t('共同点','What they share')}</strong><p>${t('都把生日放进一年循环','Both place your birthday in the yearly cycle')}</p></div><div><strong>${t('各自的视角','How they differ')}</strong><p>${t('五运六气看时序变化，太阳星座用十二星座解读生日；两种传统各有自己的含义','One reads seasonal change; one uses twelve signs. Each tradition has its own meanings.')}</p></div></div>
   <section class="your-reading" aria-labelledby="your-reading-title">
    <div class="lesson-title"><h4 id="your-reading-title">${t('你的生日，落在这里。','Where your birthday falls.')}</h4><span>${t('简化文化定位','A simplified cultural reading')}</span></div>
    <div class="compact-result">
