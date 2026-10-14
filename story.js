@@ -65,12 +65,12 @@ function compactStoryChapter(){
     <figcaption class="diagram-key"><span><b>${t('十二星座','12 Signs')}</b>${t('生日所在的一段','Your place in the year')}</span><span><b>${t('四元素','4 Elements')}</b>${t('火 · 土 · 风 · 水','Fire · Earth · Air · Water')}</span></figcaption>
    </figure>
   </div>
-  <div class="comparison-strip"><span><b>=</b>${t('相同点：都把生日放进一年循环','Both place your birthday in the yearly cycle')}</span><span><b>≠</b>${t('不同点：一个看时序变化，一个用十二星座，不能一一换算','One reads seasonal change; one uses twelve signs. They do not translate one-to-one.')}</span></div>
+  <div class="comparison-strip"><div><strong>${t('共同点','What they share')}</strong><p>${t('都把生日放进一年循环','Both place your birthday in the yearly cycle')}</p></div><div><strong>${t('各自的视角','How they differ')}</strong><p>${t('五运六气看时序变化，太阳星座用十二星座解读生日；两者不能一一换算','One reads seasonal change; one uses twelve signs. They do not translate one-to-one.')}</p></div></div>
   <section class="your-reading" aria-labelledby="your-reading-title">
    <div class="lesson-title"><h4 id="your-reading-title">${t('你的生日，落在这里。','Where your birthday falls.')}</h4><span>${t('简化文化定位','A simplified cultural reading')}</span></div>
    <div class="compact-result">
     <div class="result-card result-east"><small>${t('五运六气线索','FIVE MOVEMENTS & SIX QI')}</small><div class="result-symbol">${p.char}</div><h4>${tx(q.short)}</h4><p>${tx(qi[i])}</p><span>${tx(q.period)} · ${tx(q.mood)}</span></div>
-    <div class="result-bridge"><span>${t('同一天','SAME DAY')}</span><i>×</i></div>
+    <div class="result-bridge"><span>${t('同一个生日','One birthday')}</span><strong>${t('两种文化解读','Two cultural readings')}</strong></div>
     <div class="result-card result-west"><small>${t('太阳星座线索','SUN SIGN')}</small><div class="result-symbol">${z[2]}</div><h4>${tx(z)}</h4><p>${t(idea[0],idea[1])}</p><span>${t(idea[2],idea[3])}</span></div>
    </div>
    <p class="result-caption">${t('同日相遇，含义不同。','Same date, different meanings.')}</p>
